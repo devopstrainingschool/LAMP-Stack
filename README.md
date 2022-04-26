@@ -145,6 +145,9 @@ try {
  die();
 }
 ```
+# Finally , go to your browser and put the ip address:80 
+# you show see something like this:
+![image](https://user-images.githubusercontent.com/85393914/165368610-9ee4713e-44fa-4681-a84a-212d64450256.png)
 
 
 
