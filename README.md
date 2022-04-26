@@ -104,6 +104,16 @@ PRIMARY KEY(item_id)
 ); 
 
 ```
+```
+INSERT INTO bankaccount.todo_list (content) VALUES ("My first important item"); 
+```
+# let's check if the table is create 
+```
+SELECT * FROM bankaccount.todo_list;
+```
+
+
+
 
 
 
