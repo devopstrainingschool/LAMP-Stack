@@ -111,6 +111,43 @@ INSERT INTO bankaccount.todo_list (content) VALUES ("My first important item");
 ```
 SELECT * FROM bankaccount.todo_list;
 ```
+# Exit the database
+```
+exit
+```
+# III- Installing  PHP
+
+```
+yum install php php-mysql -y 
+```
+# Create a file called info.php in the directory /var/www/html
+```
+cd /var/www/html
+vim info.php
+```
+# Add the following lines to the info.php file in the insert mode 
+```
+<?php
+$user = “steph";
+$password = “abc123";
+$database = “school";
+$table = "todo_list";
+
+try {
+ $db = new PDO("mysql:host=localhost;dbname=$database", $user, $password);
+ echo "<h2>TODO</h2><ol>"; 
+ foreach($db->query("SELECT content FROM $table") as $row) {
+ echo "<li>" . $row['content'] . "</li>";
+ }
+ echo "</ol>";
+} catch (PDOException $e) {
+ print "Error!: " . $e->getMessage() . "<br/>";
+ die();
+}
+```
+
+
+
 
 
 
