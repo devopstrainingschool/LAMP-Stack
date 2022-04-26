@@ -28,4 +28,15 @@ sudo firewall-cmd ––permanent ––add-port=443/tcp
 ```
 sudo firewall-cmd -- reload
 ```
+# let check the webserver is running : 
+```
+ifconfig 
+```
+take the ip address and go to the browser
+```
+ip-address:80
+```
+# you shou![image](https://user-images.githubusercontent.com/85393914/165360105-b95b557b-52df-4966-baef-94728b513a51.png)
+ld see a page like this : 
+
 
