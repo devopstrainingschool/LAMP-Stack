@@ -1,14 +1,18 @@
 # LAMP-Stack
 I- Let 's create an Apache Webserver in Linux Centos.
 1- Installing Apache
+# Downoad and install Apache
 ```
-#Downoad and install Apache
 sudo yum update -y
 sudo yum install httpd -y 
+```
 # Start and enable httpd
+```
 sudo systemctl start httpd 
 sudo systemctl enable httpd
+```
 # verify that Apache is running
+```
 sudo systemctl status httpd
 ```
 2- Configure firewalld to Allow Apache Traffic
