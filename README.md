@@ -67,6 +67,43 @@ Disallow root login remotely? : y
 Remove test database and access to it?:  y
 Reload privilege tables now?: y
 ```
+# 5- Accessing the database server
+```
+mysql -u root -p
+```
+# 6- show all databases
+```
+show databases;
+# create bankaccount database
+```
+create database bankaccount;              
+```
+# create a user with a password
+```
+create user 'david'@'%' identified by 'abc123';
+```
+# Let's grant permissions to our new user
+```
+grant all privileges on bankaccoiunt.* to 'david'@'%' identified by 'abc123';
+```
+# let's flush all the privileges
+```
+flush privileges;
+```
+# let's check all the privileges
+```
+show grants;
+```
+# let's create a table called todo_list within the backaccount database
+```
+CREATE TABLE bankaccount.todo_list ( 
+item_id INT AUTO_INCREMENT, 
+content VARCHAR(255), 
+PRIMARY KEY(item_id) 
+); 
+```
+
+
 
 
 
