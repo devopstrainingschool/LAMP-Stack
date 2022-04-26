@@ -36,7 +36,7 @@ take the ip address and go to the browser
 ```
 ip-address:80
 ```
-# you shou![image](https://user-images.githubusercontent.com/85393914/165360105-b95b557b-52df-4966-baef-94728b513a51.png)
-ld see a page like this : 
+# you should see a page like this: ![image](https://user-images.githubusercontent.com/85393914/165360105-b95b557b-52df-4966-baef-94728b513a51.png)
+
 
 
