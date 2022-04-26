@@ -1,5 +1,5 @@
 # LAMP-Stack
-I- Let 's create an Apache Webserver in Linux Centos.
+# I- Let 's create an Apache Webserver in Linux Centos.
 1- Installing Apache
 # Downoad and install Apache
 ```
@@ -38,5 +38,6 @@ ip-address:80
 ```
 # you should see a page like this: ![image](https://user-images.githubusercontent.com/85393914/165360105-b95b557b-52df-4966-baef-94728b513a51.png)
 
+# II - Let install MariaDB 
 
 
