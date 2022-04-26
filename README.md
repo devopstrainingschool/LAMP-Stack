@@ -26,7 +26,7 @@ sudo firewall-cmd ––permanent ––add-port=443/tcp
 ```
 # reload the firewall to apply the changes with the command:
 ```
-sudo firewall-cmd -- reload
+sudo firewall-cmd --reload
 ```
 # let check the webserver is running : 
 ```
