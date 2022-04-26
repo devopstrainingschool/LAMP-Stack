@@ -74,6 +74,7 @@ mysql -u root -p
 # 6- show all databases
 ```
 show databases;
+```
 # create bankaccount database
 ```
 create database bankaccount;              
