@@ -56,7 +56,8 @@ sudo systemctl status mariadb
 ```
 mysql_secure_installation
 ```
-# y for all except the first prompt
+# Follow the prompt as below
+```
 Enter the current password for root: Press Enter (since we don’t have one)
 Set root password? : y
 New password: abc123
@@ -65,7 +66,7 @@ Remove anonymous users?: y
 Disallow root login remotely? : y
 Remove test database and access to it?:  y
 Reload privilege tables now?: y
-
+```
 
 
 
