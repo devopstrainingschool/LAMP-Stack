@@ -128,9 +128,9 @@ vim info.php
 # Add the following lines to the info.php file in the insert mode 
 ```
 <?php
-$user = “steph";
+$user = “david";
 $password = “abc123";
-$database = “school";
+$database = “bankaccount";
 $table = "todo_list";
 
 try {
