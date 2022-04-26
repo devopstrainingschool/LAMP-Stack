@@ -85,7 +85,7 @@ create user 'david'@'%' identified by 'abc123';
 ```
 # Let's grant permissions to our new user
 ```
-grant all privileges on bankaccoiunt.* to 'david'@'%' identified by 'abc123';
+grant all privileges on bankaccount.* to 'david'@'%' identified by 'abc123';
 ```
 # let's flush all the privileges
 ```
