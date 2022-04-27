@@ -128,21 +128,21 @@ vim info.php
 # Add the following lines to the info.php file in the insert mode 
 ```
 <?php
-$user = “david";
-$password = “abc123";
-$database = “bankaccount";
+$user = "david";
+$password = "abc123";
+$database = "bankaccount";
 $table = "todo_list";
 
 try {
- $db = new PDO("mysql:host=localhost;dbname=$database", $user, $password);
- echo "<h2>TODO</h2><ol>"; 
- foreach($db->query("SELECT content FROM $table") as $row) {
- echo "<li>" . $row['content'] . "</li>";
- }
- echo "</ol>";
+  $db = new PDO("mysql:host=localhost;dbname=$database", $user, $password);
+  echo "<h2>TODO</h2><ol>"; 
+  foreach($db->query("SELECT content FROM $table") as $row) {
+    echo "<li>" . $row['content'] . "</li>";
+  }
+  echo "</ol>";
 } catch (PDOException $e) {
- print "Error!: " . $e->getMessage() . "<br/>";
- die();
+    print "Error!: " . $e->getMessage() . "<br/>";
+    die();
 }
 ```
 # Finally , go to your browser and put the ip address:80 
