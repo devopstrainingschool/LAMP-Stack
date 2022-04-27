@@ -119,6 +119,11 @@ exit
 
 ```
 yum install php php-mysql -y 
+
+```
+# if the above command does not work, then do this command:
+```
+sudo yum install php-mysqlnd -y
 ```
 # Create a file called info.php in the directory /var/www/html
 ```
