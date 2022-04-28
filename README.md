@@ -81,7 +81,7 @@ create database bankaccount;
 ```
 # create a user with a password
 ```
-create user 'david'@'%' identified by 'abc123';
+create user 'david'@'localhost' identified by 'abc123';
 ```
 # Let's grant permissions to our new user
 ```
