@@ -124,7 +124,7 @@ exit
 # III- Installing  PHP
 
 ```
-yum install php php-mysql -y 
+sudo yum install php php-mysql -y 
 
 ```
 # if the above command does not work, then do this command:
@@ -134,7 +134,7 @@ sudo yum install php-mysqlnd -y
 # Create a file called info.php in the directory /var/www/html
 ```
 cd /var/www/html
-vim info.php
+sudo vi info.php
 ```
 # Add the following lines to the info.php file in the insert mode 
 ```
@@ -158,7 +158,7 @@ try {
 ```
 # Restart the httpd server
 ```
-systemctl restart httpd
+sudo systemctl restart httpd
 ```
 #Finally , go to your browser and put the ip address:80 
 # you show see something like this:
